@@ -1,29 +1,25 @@
 package org.gs.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.core.JsonProcessingException;
+
 
 import java.util.*;
 
 
-//@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Matcher {
 
-    public Set<Object> draws;
-    private String productName;
+    public List<Object> draws;
+
+
     private String requestId;
 
-    public Matcher() {
-
+    public Matcher(){
     }
 
-        public String getProductName() {
-            return productName;
-        }
-
-        public void setProductName(String productName) {
-            this.productName = productName;
-        }
-
-        public String getRequestId() {
+    public String getRequestId() throws JsonProcessingException {
         return requestId;
     }
 

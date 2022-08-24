@@ -9,7 +9,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 
-@RegisterRestClient(baseUri = "https://api.www.svenskaspel.se/draw/1/stryktipset/draws")
+@RegisterRestClient()
 public interface MatcherProxy {
 
     @GET
