@@ -1,7 +1,7 @@
 # svenska-spel Project
 
 
-This project adds the Allow-orgins CORS headers to API from Svenska Spel and acts thereby like a proxy.
+This Microservice adds the Allow-orgins CORS headers to API from Svenska Spel and acts thereby like a proxy.
 
 
 ## Running the application in dev mode
